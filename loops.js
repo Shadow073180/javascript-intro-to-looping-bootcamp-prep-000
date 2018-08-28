@@ -22,12 +22,13 @@ function incrementVariable() {
 }
 
 function doWhileLoop(array) {
-for  (let i = array.length; i < array.length) {
+for  (i = array.length +1; i <= array.length; i--) {
 }
   do {
     array.pop
   }
     while (array.length > -1 && incrementVariable()); 
    
- return array;
+ return array
+ console.log(array);
 }
