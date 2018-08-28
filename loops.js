@@ -22,13 +22,11 @@ function incrementVariable() {
 }
 
 function doWhileLoop(array) {
-for  (i = array.length +1; i <= array.length; i--) {
-}
-  do {
-    array.pop
+  function maybeTrue() {
+    return Math.random() >= 0.5
   }
-    while (array.length > -1 && incrementVariable()); 
-   
- return array
- console.log(array);
+   do {
+    array.pop();
+  } while (array.length > -1 && maybeTrue());
+    return array;
 }
