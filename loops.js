@@ -22,7 +22,7 @@ function incrementVariable() {
 }
 
 function doWhileLoop(array) {
-  let {i = 0; i < array.length}
+  let (i = 0; i < array.length)
   do {
   while lst.length > -1 && incrementVariable() {
    
