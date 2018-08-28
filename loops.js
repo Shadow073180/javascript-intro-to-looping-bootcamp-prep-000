@@ -22,6 +22,7 @@ function incrementVariable() {
 }
 
 function doWhileLoop(lst) {
+do {
  while lst.length > -1 && incrementVariable() {
    
  }
