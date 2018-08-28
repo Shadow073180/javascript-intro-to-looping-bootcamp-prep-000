@@ -21,8 +21,8 @@ function incrementVariable() {
   i = i + 1;
 }
 
-function doWhileLoop(lst) {
-do {
+function doWhileLoop(array) {
+do {i = array.length; 
  while lst.length > -1 && incrementVariable() {
    
  }
